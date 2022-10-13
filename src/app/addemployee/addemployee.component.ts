@@ -10,35 +10,36 @@ export class AddemployeeComponent implements OnInit {
   constructor() { }
 
 
-  CODE=""
-  NAME=""
-  GENDER=""
+  employeecode=""
+  employee=""
+  gender=""
   Pincode=""
-  Designation=""
-  COMPANY=""
-  COMPANYADDRESS=""
-  EMAIL=""
-  SALARY=""
-  PHNUM=""
-  EXPERIENCE=""
-  BLOOD=""
+  designation=""
+  company=""
+  companyaddress=""
+  email=""
+  salary=""
+  Phnum=""
+  experience=""
+  blood=""
   DOB=""
 
 
 
   readValues=()=>{
     let data = {
-      "CODE":this.CODE,
-      "NAME":this.NAME,
-      "GENDER":this.Pincode,
-      "Designation":this.Designation,
-      "COMPANY":this.COMPANY,
-      "COMPANYADDRESS":this.COMPANYADDRESS,
-      "EMAIL":this.EMAIL,
-      "SALARY":this.SALARY,
-      "PHNUM":this.PHNUM,
-      "EXPERIENCE":this.EXPERIENCE,
-      "BLOOD":this.BLOOD,
+      "employeecode":this.employeecode,
+      "employee":this.employee,
+      "gender":this.gender,
+"Pincode":this.Pincode,
+      "designation":this.designation,
+      "company":this.company,
+      "companyaddress":this.companyaddress,
+      "email":this.email,
+      "salary":this.salary,
+      "Phnum":this.Phnum,
+      "experience":this.experience,
+      "blood":this.blood,
       "DOB":this.DOB
     }
     console.log(data)
